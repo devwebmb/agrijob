@@ -1,0 +1,123 @@
+import {StyleSheet} from 'react-native';
+
+const globalStyles = StyleSheet.create({
+  reset: {
+    /* Réinitialisation des styles */
+    margin: 0,
+    padding: 0,
+    borderWidth: 0,
+    fontSize: '100%',
+    fontFamily: 'inherit',
+    verticalAlign: 'baseline',
+
+    /* Rendre tous les éléments de type block */
+    html: {display: 'block'},
+    body: {display: 'block'},
+    div: {display: 'block'},
+    span: {display: 'block'},
+    applet: {display: 'block'},
+    object: {display: 'block'},
+    iframe: {display: 'block'},
+    h1: {display: 'block'},
+    h2: {display: 'block'},
+    h3: {display: 'block'},
+    h4: {display: 'block'},
+    h5: {display: 'block'},
+    h6: {display: 'block'},
+    p: {display: 'block'},
+    blockquote: {display: 'block'},
+    pre: {display: 'block'},
+    a: {display: 'block'},
+    abbr: {display: 'block'},
+    acronym: {display: 'block'},
+    address: {display: 'block'},
+    big: {display: 'block'},
+    cite: {display: 'block'},
+    code: {display: 'block'},
+    del: {display: 'block'},
+    dfn: {display: 'block'},
+    em: {display: 'block'},
+    img: {display: 'block'},
+    ins: {display: 'block'},
+    kbd: {display: 'block'},
+    q: {display: 'block'},
+    s: {display: 'block'},
+    samp: {display: 'block'},
+    small: {display: 'block'},
+    strike: {display: 'block'},
+    strong: {display: 'block'},
+    sub: {display: 'block'},
+    sup: {display: 'block'},
+    tt: {display: 'block'},
+    var: {display: 'block'},
+    b: {display: 'block'},
+    u: {display: 'block'},
+    i: {display: 'block'},
+    center: {display: 'block'},
+    dl: {display: 'block'},
+    dt: {display: 'block'},
+    dd: {display: 'block'},
+    ol: {display: 'block'},
+    ul: {display: 'block'},
+    li: {display: 'block'},
+    fieldset: {display: 'block'},
+    form: {display: 'block'},
+    label: {display: 'block'},
+    legend: {display: 'block'},
+    table: {display: 'block'},
+    caption: {display: 'block'},
+    tbody: {display: 'block'},
+    tfoot: {display: 'block'},
+    thead: {display: 'block'},
+    tr: {display: 'block'},
+    th: {display: 'block'},
+    td: {display: 'block'},
+    article: {display: 'block'},
+    aside: {display: 'block'},
+    canvas: {display: 'block'},
+    details: {display: 'block'},
+    embed: {display: 'block'},
+    figure: {display: 'block'},
+    figcaption: {display: 'block'},
+    footer: {display: 'block'},
+    header: {display: 'block'},
+    hgroup: {display: 'block'},
+    menu: {display: 'block'},
+    nav: {display: 'block'},
+    output: {display: 'block'},
+    ruby: {display: 'block'},
+    section: {display: 'block'},
+    summary: {display: 'block'},
+    time: {display: 'block'},
+    mark: {display: 'block'},
+    audio: {display: 'block'},
+    video: {display: 'block'},
+
+    /* Inherit du box-sizing */
+    html: {boxSizing: 'border-box'},
+    '*': {boxSizing: 'inherit'},
+    '*:before': {boxSizing: 'inherit'},
+    '*:after': {boxSizing: 'inherit'},
+
+    /* Réinitialisation du corps */
+    body: {lineHeight: 1},
+
+    /* Suppression des puces pour les listes ordonnées et non ordonnées */
+    ol: {listStyle: 'none'},
+    ul: {listStyle: 'none'},
+
+    /* Suppression des guillemets pour les éléments de type quote */
+    blockquote: {quotes: 'none'},
+    q: {quotes: 'none'},
+
+    /* Suppression des pseudo-éléments before et after */
+    blockquote: {content: '""'},
+    q: {content: '""'},
+
+    /* Rendre collapse les éléments de type table */
+    table: {borderCollapse: 'collapse'},
+  },
+  // Autres styles globaux...
+});
+
+export default globalStyles;
